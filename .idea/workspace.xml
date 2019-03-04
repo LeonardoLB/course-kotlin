@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad88d5c-02e7-4f2e-9ac7-a56b819c3626" name="Default Changelist" comment="first program with kotlin">
-      <change afterPath="$PROJECT_DIR$/src/funcoes/ArgsNomeados.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcoes/ParametrosImutaveis.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,11 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/funcoes/ArgsNomeados.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+            <state relative-caret-position="231">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/funcoes/ParametrosImutaveis.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -99,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/fundamentos/OperadorCast.kt" />
         <option value="$PROJECT_DIR$/src/funcoes/TopLeve.kt" />
         <option value="$PROJECT_DIR$/src/funcoes/ArgsNomeados.kt" />
+        <option value="$PROJECT_DIR$/src/funcoes/ParametrosImutaveis.kt" />
       </list>
     </option>
   </component>
@@ -142,7 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551710681913" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551711913340" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -286,12 +296,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.500821" side_tool="true" weight="0.18669528" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.481402" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.481402" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.6587983" weight="0.27261147" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.72103006" weight="0.22420382" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.72103006" visible="true" weight="0.22420382" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.518598" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4899857" weight="0.3299363" />
@@ -666,6 +676,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/funcoes/ArgsNomeados.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/funcoes/TopLeve.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -673,10 +690,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/funcoes/ArgsNomeados.kt">
+    <entry file="file://$PROJECT_DIR$/src/funcoes/ParametrosImutaveis.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+        <state relative-caret-position="189">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
