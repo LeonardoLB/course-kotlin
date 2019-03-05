@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad88d5c-02e7-4f2e-9ac7-a56b819c3626" name="Default Changelist" comment="first program with kotlin">
-      <change afterPath="$PROJECT_DIR$/src/classes/Classe2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Membros.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,11 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/Classe2.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classes/Membros.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -56,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/fundamentos/ConstJava.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/TiposBasicos.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/FuncaoComRetorno.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/FuncaoSemRetorno.kt" />
@@ -107,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/funcoes/inline2.kt" />
         <option value="$PROJECT_DIR$/src/classes/Classe1.kt" />
         <option value="$PROJECT_DIR$/src/classes/Classe2.kt" />
+        <option value="$PROJECT_DIR$/src/classes/Membros.kt" />
       </list>
     </option>
   </component>
@@ -150,7 +159,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551817172614" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551822780091" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -168,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.classes.Classe2Kt">
+  <component name="RunManager" selected="Kotlin.classes.MembrosKt">
     <configuration name="classes.Classe1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-course" />
       <option name="VM_PARAMETERS" />
@@ -195,14 +204,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="funcoes.FuncaoComoParametro2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="classes.MembrosKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-course" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="funcoes.FuncaoComoParametro2Kt" />
+      <option name="MAIN_CLASS_NAME" value="classes.MembrosKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.classes.MembrosKt" />
         <item itemvalue="Kotlin.classes.Classe2Kt" />
         <item itemvalue="Kotlin.classes.Classe1Kt" />
         <item itemvalue="Kotlin.funcoes.Inline2Kt" />
         <item itemvalue="Kotlin.funcoes.Inline1Kt" />
-        <item itemvalue="Kotlin.funcoes.FuncaoComoParametro2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -294,12 +303,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.500821" side_tool="true" weight="0.18669528" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.481402" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.481402" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.6587983" weight="0.27261147" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.72103006" weight="0.22420382" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.72103006" visible="true" weight="0.22420382" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.518598" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4899857" weight="0.3299363" />
@@ -370,13 +379,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/TiposBasicos.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fundamentos/FuncaoSemRetorno.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -733,6 +735,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Membros.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
