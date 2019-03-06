@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad88d5c-02e7-4f2e-9ac7-a56b819c3626" name="Default Changelist" comment="first program with kotlin">
-      <change afterPath="$PROJECT_DIR$/src/classes/Construtor2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Init.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,19 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classes/Construtor2.kt">
+        <entry file="file://$PROJECT_DIR$/src/classes/Init.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/Construtor.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="238">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -56,7 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/fundamentos/ChamadaSegura.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/OperadorElvis.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/ForcandoExceptionNullPointer.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/pacoteA/Mistura.kt" />
@@ -107,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/classes/Construtor.kt" />
         <option value="$PROJECT_DIR$/kotlin-course.iml" />
         <option value="$PROJECT_DIR$/src/classes/Construtor2.kt" />
+        <option value="$PROJECT_DIR$/src/classes/Init.kt" />
       </list>
     </option>
   </component>
@@ -150,7 +141,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551887203319" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551888125237" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -168,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.classes.Construtor2Kt">
+  <component name="RunManager" selected="Kotlin.classes.InitKt">
     <configuration name="classes.Construtor2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-course" />
       <option name="VM_PARAMETERS" />
@@ -208,14 +199,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classes.Membros2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="classes.InitKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-course" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="classes.Membros2Kt" />
+      <option name="MAIN_CLASS_NAME" value="classes.InitKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.classes.InitKt" />
         <item itemvalue="Kotlin.classes.Construtor2Kt" />
         <item itemvalue="Kotlin.classes.ConstrutorKt" />
         <item itemvalue="Kotlin.classes.DataClassVsClassKt" />
         <item itemvalue="Kotlin.classes.TiposVarEValKt" />
-        <item itemvalue="Kotlin.classes.Membros2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -370,13 +361,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/controle/IfElse.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fundamentos/controle/If.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -722,6 +706,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Construtor2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/Construtor.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -729,10 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Construtor2.kt">
+    <entry file="file://$PROJECT_DIR$/src/classes/Init.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="81" />
+        <state relative-caret-position="238">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
