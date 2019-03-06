@@ -3,8 +3,8 @@ package classes
 fun main() {
 
     ItemDePedido.desconto = .05
-    val item1 = ItemDePedido.create("Playstation 4", 2300.00).printThis()
-    val item2 = ItemDePedido("Mac Pro", 8000.00).printThis()
+    ItemDePedido.create("Playstation 4", 2300.00).printThis()
+    ItemDePedido("Mac Pro", 8000.00).printThis()
 
 }
 
