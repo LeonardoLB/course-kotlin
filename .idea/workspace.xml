@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad88d5c-02e7-4f2e-9ac7-a56b819c3626" name="Default Changelist" comment="first program with kotlin">
-      <change afterPath="$PROJECT_DIR$/src/collections/ArrayListOf.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/ArrayListInt.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-course/META-INF/kotlin-course.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-course/collections/ArraysKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-course/collections/ArraysKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/collections/ArrayListOf.kt">
+        <entry file="file://$PROJECT_DIR$/src/collections/ArrayListInt.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -53,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/fundamentos/Operadores/Destructuring.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/Operadores/Aritimeticos.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/Operadores/Relacionais.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/Operadores/logicos.kt" />
@@ -104,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/lambdas/Run.kt" />
         <option value="$PROJECT_DIR$/src/collections/Arrays.kt" />
         <option value="$PROJECT_DIR$/src/collections/ArrayListOf.kt" />
+        <option value="$PROJECT_DIR$/src/collections/ArrayListInt.kt" />
       </list>
     </option>
   </component>
@@ -138,6 +136,12 @@
               <item name="kotlin-course" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kotlin-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -147,7 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552163810295" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552164195983" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -165,7 +169,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.collections.ArrayListOfKt">
+  <component name="RunManager" selected="Kotlin.collections.ArrayListIntKt">
+    <configuration name="collections.ArrayListIntKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-course" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="collections.ArrayListIntKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="collections.ArrayListOfKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-course" />
       <option name="VM_PARAMETERS" />
@@ -187,19 +204,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="collections.ArraysKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lambdas.AplyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-course" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="lambdas.AplyKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -233,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.collections.ArrayListIntKt" />
         <item itemvalue="Kotlin.collections.ArrayListOfKt" />
         <item itemvalue="Kotlin.collections.ArraysKt" />
         <item itemvalue="Kotlin.lambdas.RunKt" />
         <item itemvalue="Kotlin.lambdas.LetKt" />
-        <item itemvalue="Kotlin.lambdas.AplyKt" />
       </list>
     </recent_temporary>
   </component>
@@ -291,12 +295,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5025126" side_tool="true" weight="0.19670959" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4806867" weight="0.32769832" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4806867" visible="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.6587983" weight="0.27178153" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.58082974" visible="true" weight="0.2236671" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.58082974" weight="0.2236671" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.41917023" side_tool="true" weight="0.2236671" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32899868" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4899857" weight="0.32769832" />
@@ -371,13 +375,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/Operadores/logicos.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fundamentos/Operadores/ternario.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -726,8 +723,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collections/ArrayListOf.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
+        <state relative-caret-position="504">
           <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/ArrayListInt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
