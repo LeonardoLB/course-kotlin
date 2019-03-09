@@ -2,8 +2,13 @@ package collections
 
 fun main() {
 
+    /**
+     * intArrayOf impoem ao array um tipo, permitindo
+     * somente itens do tipo int no array
+     **/
+
     val pares = arrayListOf(2, 4, 6)
-    val impares = arrayListOf(1, 3, 5)
+    val impares = intArrayOf(1, 3, 5)
 
     /**
      * Funcao union permite unir arrays do mesmo tipo
