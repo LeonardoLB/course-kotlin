@@ -14,10 +14,23 @@ fun main() {
     matriz[2][1] = 8
     matriz[2][2] = 9
 
+    /**
+     * Com for
+     **/
 
     for ((line, linhaArray) in matriz.withIndex()){
         for ((coluna, valor) in linhaArray.withIndex()) {
             println("[$line][$coluna] - $valor")
+        }
+    }
+
+    /**
+     * Com forEach
+     **/
+
+    matriz.forEach {
+        it.forEach {
+            println(it)
         }
     }
 
