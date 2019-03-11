@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad88d5c-02e7-4f2e-9ac7-a56b819c3626" name="Default Changelist" comment="first program with kotlin">
-      <change afterPath="$PROJECT_DIR$/src/avancado/sobrecargaOperadores.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/avancado/anotacaoComReflexao.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-course/META-INF/kotlin-course.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-course/META-INF/kotlin-course.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-course/avancado/SobrecargaOperadoresKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-course/avancado/SobrecargaOperadoresKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/avancado/sobrecargaOperadores.kt">
+        <entry file="file://$PROJECT_DIR$/src/avancado/anotacaoComReflexao.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="151">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -51,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/classes/Membros.kt" />
         <option value="$PROJECT_DIR$/src/classes/membros2.kt" />
         <option value="$PROJECT_DIR$/src/classes/TiposVarEVal.kt" />
         <option value="$PROJECT_DIR$/src/classes/DataClassVsClass.kt" />
@@ -102,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/avancado/recursividade.kt" />
         <option value="$PROJECT_DIR$/src/avancado/generics.kt" />
         <option value="$PROJECT_DIR$/src/avancado/sobrecargaOperadores.kt" />
+        <option value="$PROJECT_DIR$/src/avancado/anotacaoComReflexao.kt" />
       </list>
     </option>
   </component>
@@ -137,12 +139,6 @@
               <item name="kotlin-course" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kotlin-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avancado" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -151,7 +147,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552331405205" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552332504974" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -174,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.avancado.SobrecargaOperadoresKt">
+  <component name="RunManager" selected="Kotlin.avancado.AnotacaoComReflexaoKt">
     <configuration name="OO.Polimorfismo.ComPolimorfismoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-course" />
       <option name="VM_PARAMETERS" />
@@ -188,14 +184,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OO.Polimorfismo.SemPolimorfismoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="avancado.AnotacaoComReflexaoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-course" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="OO.Polimorfismo.SemPolimorfismoKt" />
+      <option name="MAIN_CLASS_NAME" value="avancado.AnotacaoComReflexaoKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.avancado.AnotacaoComReflexaoKt" />
         <item itemvalue="Kotlin.avancado.SobrecargaOperadoresKt" />
         <item itemvalue="Kotlin.avancado.GenericsKt" />
         <item itemvalue="Kotlin.avancado.RecursividadeKt" />
         <item itemvalue="Kotlin.OO.Polimorfismo.ComPolimorfismoKt" />
-        <item itemvalue="Kotlin.OO.Polimorfismo.SemPolimorfismoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -380,13 +376,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/classes/Construtor2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/Construtor.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -731,6 +720,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/avancado/anotacaoComReflexao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
