@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad88d5c-02e7-4f2e-9ac7-a56b819c3626" name="Default Changelist" comment="first program with kotlin">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OO/Polimorfismo/ComPolimorfismo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/avancado/recursividade.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-course/META-INF/kotlin-course.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-course/META-INF/kotlin-course.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-course/OO/Polimorfismo/Arroz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-course/OO/Polimorfismo/Arroz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-course/OO/Polimorfismo/Feijão.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-course/OO/Polimorfismo/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-course/OO/Polimorfismo/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-course/OO/Polimorfismo/Sem_PolimorfismoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OO/Polimorfismo/Sem Polimorfismo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/OO/Polimorfismo/SemPolimorfismo.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/OO/Polimorfismo/ComPolimorfismo.kt">
+        <entry file="file://$PROJECT_DIR$/src/avancado/recursividade.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            <state relative-caret-position="42">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -58,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/funcoes/inline2.kt" />
         <option value="$PROJECT_DIR$/src/classes/Classe1.kt" />
         <option value="$PROJECT_DIR$/src/classes/Classe2.kt" />
         <option value="$PROJECT_DIR$/src/classes/Membros.kt" />
@@ -109,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/OO/Polimorfismo/Sem Polimorfismo.kt" />
         <option value="$PROJECT_DIR$/src/OO/Polimorfismo/SemPolimorfismo.kt" />
         <option value="$PROJECT_DIR$/src/OO/Polimorfismo/ComPolimorfismo.kt" />
+        <option value="$PROJECT_DIR$/src/avancado/recursividade.kt" />
       </list>
     </option>
   </component>
@@ -148,7 +141,7 @@
               <item name="kotlin-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlin-course" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="OO" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,7 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552327216034" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552328799373" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -181,20 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.OO.Polimorfismo.ComPolimorfismoKt">
-    <configuration name="OO.Encapsulamento.EncapsulamentoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-course" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="OO.Encapsulamento.EncapsulamentoKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.avancado.RecursividadeKt">
     <configuration name="OO.Heranca.AnimalKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-course" />
       <option name="VM_PARAMETERS" />
@@ -247,13 +227,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="avancado.RecursividadeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-course" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="avancado.RecursividadeKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.avancado.RecursividadeKt" />
         <item itemvalue="Kotlin.OO.Polimorfismo.ComPolimorfismoKt" />
         <item itemvalue="Kotlin.OO.Polimorfismo.SemPolimorfismoKt" />
         <item itemvalue="Kotlin.OO.Heranca.AnimalKt" />
         <item itemvalue="Kotlin.OO.Heranca.MainKt" />
-        <item itemvalue="Kotlin.OO.Encapsulamento.EncapsulamentoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +291,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49748743" visible="true" weight="0.21101573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49748743" visible="true" weight="0.21101573" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -312,7 +305,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.6587983" weight="0.27178153" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.58082974" visible="true" weight="0.2236671" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.58082974" visible="true" weight="0.2236671" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.41917023" side_tool="true" weight="0.2236671" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32899868" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4899857" weight="0.32769832" />
@@ -387,38 +380,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Membros.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Classe2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/membros2.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/TiposVarEVal.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -454,13 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/GetterCalculado.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -736,8 +694,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OO/Polimorfismo/ComPolimorfismo.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state relative-caret-position="319">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Classe2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Membros.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/TiposVarEVal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/GetterCalculado.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/avancado/recursividade.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
