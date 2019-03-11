@@ -4,16 +4,16 @@ package OO.Polimorfismo
  * Polimorfismo dinamico
  **/
 
-class Feijão( val peso: Double)
-class Arroz( val peso: Double )
+class Feijao2( val peso: Double )
+class Arroz2( val peso: Double )
 
-class Pessoa( var peso: Double ) {
+class Pessoa2( var peso: Double ) {
 
-    fun comer(feijão: Feijão) {
+    fun comer(feijão: Feijao2) {
         peso += feijão.peso
     }
 
-    fun comer(arroz: Arroz) {
+    fun comer(arroz: Arroz2) {
         peso += arroz.peso
     }
 
@@ -25,10 +25,10 @@ class Pessoa( var peso: Double ) {
 
 fun main() {
 
-    val feijao = Feijão(0.3)
-    val arroz = Arroz(0.7)
+    val feijao = Feijao2(0.3)
+    val arroz = Arroz2(0.7)
 
-    val pessoa1 = Pessoa(78.0)
+    val pessoa1 = Pessoa2(78.0)
 
     println(pessoa1)
     pessoa1.comer(arroz)
